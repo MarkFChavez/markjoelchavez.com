@@ -46,7 +46,7 @@ class Template extends React.Component {
           style={{
             fontFamily: 'Alegreya Sans, sans-serif',
             marginTop: 0,
-            marginBottom: rhythm(-1),
+            marginBottom: rhythm(1),
           }}
         >
           <Link
