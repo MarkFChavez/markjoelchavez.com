@@ -1,8 +1,7 @@
 import React from 'react'
 
-// Import typefaces
-import 'typeface-montserrat'
-import 'typeface-merriweather'
+// Import typeface
+import 'typeface-alegreya-sans'
 
 import profilePic from './profile-pic.jpg'
 import { rhythm } from '../utils/typography'
