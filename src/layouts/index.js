@@ -4,13 +4,7 @@ import { Container } from 'react-responsive-grid'
 
 import { rhythm, scale } from '../utils/typography'
 
-const title = () => {
-  return (
-    <span>
-      markOnSoftware
-    </span>
-  )
-}
+const TITLE = 'markOnSoftware'
 
 class Template extends React.Component {
   render() {
@@ -39,7 +33,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            {title()}
+            {TITLE}
           </Link>
         </h1>
       )
@@ -60,7 +54,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            {title()}
+            {TITLE}
           </Link>
         </h3>
       )
