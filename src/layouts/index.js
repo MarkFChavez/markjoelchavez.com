@@ -2,7 +2,9 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
 
+import 'typeface-alegreya'
 import 'typeface-alegreya-sans'
+import '../css/prism-coy.css'
 import { rhythm, scale } from '../utils/typography'
 
 const TITLE = 'markOnSoftware'
