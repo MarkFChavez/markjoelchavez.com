@@ -5,7 +5,7 @@ module.exports = {
     description: 'My personal thoughts on web',
     siteUrl: 'http://markjoelchavez.com',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  // pathPrefix: '/gatsby-starter-blog',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
