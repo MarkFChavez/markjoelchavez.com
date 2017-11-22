@@ -24,7 +24,7 @@ class Bio extends React.Component {
         />
         <p>
           Hi, I'm Mark Chavez. Maintainer of <a href="https://github.com/mrkjlchvz/ex_swapi">swapi</a>, <a href="http://yamda.markjoelchavez.com/">yamda</a> and a whole bunch of open-source projects. Join
-          me on my adventures as I unfold good bits about software writing. You can also
+          me on my adventures as I unfold the good bits about software writing. You can also
           follow me on <a href="https://twitter.com/markisundefined">twitter</a> and <a href="https://github.com/mrkjlchvz">github</a> for more
           goodies. Also, I love <a href="https://twitter.com/search?q=%23oss">#oss</a>!
         </p>

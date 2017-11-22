@@ -26,6 +26,7 @@ class Template extends React.Component {
             ...scale(1.2),
             marginBottom: rhythm(1.5),
             marginTop: 0,
+            fontWeight: 'bold'
           }}
         >
           <Link
@@ -47,6 +48,7 @@ class Template extends React.Component {
             fontFamily: 'Alegreya Sans, sans-serif',
             marginTop: 0,
             marginBottom: rhythm(1),
+            fontWeight: 'bold'
           }}
         >
           <Link
