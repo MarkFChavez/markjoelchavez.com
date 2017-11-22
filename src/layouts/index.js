@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
 
 import { rhythm, scale } from '../utils/typography'
+require('typeface-alegreya-sans')
 
 const TITLE = 'markOnSoftware'
 

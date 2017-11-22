@@ -1,10 +1,10 @@
 {
   "name": "gatsby-starter-blog",
-  "description": "Starter Gatsby Blog",
+  "description": "Mark On Software",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Mark Chavez <markchav3z@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
+    "url": "https://github.com/mrkjlchvz/markjoelchavez.com/issues"
   },
   "dependencies": {
     "gatsby": "^1.9.118",
@@ -34,7 +34,7 @@
     "gh-pages": "^1.1.0",
     "prettier": "^1.8.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "http://markjoelchavez.com",
   "keywords": [
     "gatsby"
   ],

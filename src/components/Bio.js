@@ -1,8 +1,5 @@
 import React from 'react'
 
-// Import typeface
-import 'typeface-alegreya-sans'
-
 import profilePic from './profile-pic.jpg'
 import { rhythm } from '../utils/typography'
 
