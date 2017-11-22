@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Avoid Conditionals in Elixir
-category: elixir
+date: 2017-08-04
 ---
 
 I used to love conditionals. I think everybody did. It gave us the ability to
@@ -11,8 +10,6 @@ bullet.
 Not until I was forced to write a collection of complex conditional
 logics and I didn't have my refactoring bag with me. It was hell and took me
 a lot of time to understand and test the code.
-
-<!--break-->
 
 Elixir has introduced a fairly new concept to my head called *Pattern Matching*.
 It is somewhat similar to regular expressions but is different in many ways. We
@@ -37,7 +34,7 @@ end
 
 The above example looks typical. Coming from the ruby language, I can safely say
 that this is a usual solution but not a good one though. Personally, having a
-conditional logic in a function brings a bunch of complexities. 
+conditional logic in a function brings a bunch of complexities.
 
 Why?
 

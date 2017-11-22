@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Anonymous Functions with Elixir
-category: elixir
+date: 2017-08-01
 ---
 
 Anonymous functions are simply functions or methods that is not assigned a
@@ -14,8 +13,6 @@ has its good uses too especially in Elixir.
 hello_world = fn -> IO.puts("Hello world") end
 hello_world.() # Hello world
 ```
-
-<!--break-->
 
 ### With arguments
 

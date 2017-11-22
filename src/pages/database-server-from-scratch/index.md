@@ -1,15 +1,12 @@
 ---
-layout: post
 title: Building a Mock Database Server from Scratch in Elixir
-category: elixir
+date: 2017-07-13
 ---
 
 Hello again! So I decided to build a mock database server in Elixir without
 using **GenServer**. In the real world, this is probably something that we
 won't do since **GenServer** provides pretty much all the capabilities that
 a server would need.
-
-<!--break-->
 
 First, I want to let you know that the working code is on my GitHub account. You
 can check the repo by clicking [here](https://github.com/mrkjlchvz/mock_database_server).

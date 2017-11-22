@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Finally Loving Mobile Development
-category: javascript
+date: 2017-08-28
 ---
 
 Looking back during the last 10 years or so, mobile apps are nothing but a stranger of this
 world. Then suddenly, it boomed and went crazy. Nowadays, you can't see an individual without
 a mobile phone.
-
-<!--break-->
 
 To be honest, I've been trying to learn mobile development for quite a while. Then at
 some point, I stopped and moved on again with web instead.

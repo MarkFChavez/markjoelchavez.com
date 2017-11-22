@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Writing a RESTful Rails Controller
-category: ruby
+date: 2017-06-28
 ---
 
 It is very important to keep your controllers clean. It must be readable, concise
 and RESTful in a sense. With Rails, it is pretty easy to mess stuff up so it is
 usually best to understand the benefits of knowing what RESTful really means.
-
-<!--break-->
 
 #### What do I actually mean by RESTful?
 

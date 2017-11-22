@@ -1,7 +1,6 @@
 ---
-layout: post
-title: Functional Programming and Elixir
-category: elixir
+title: Functional Programming & Elixir
+date: 2017-06-14
 ---
 
 Looks like functional programming is gaining a lot of traction for quite some time now. I just
@@ -10,10 +9,8 @@ focuses on developer happiness just like Ruby but with the notion that it is
 fast, highly-scalable and battle-tested (uses the Erlang VM which powers the
 majority of telecom networks).
 
-<!--break-->
-
 We're getting more CPU cores than ever and using a functional language like
-Elixir gives developers the capability to write concurrent applications by thinking 
+Elixir gives developers the capability to write concurrent applications by thinking
 about processes.
 
 ### Why Elixir?
@@ -33,7 +30,7 @@ The [documentation](https://elixir-lang.org/docs.html) is very well-written and 
 ### Now what?
 
 Personally, it didn't take me long enough to decide whether to learn Elixir or
-not. At first, I was looking at some Go code and it just didn't resonated with me. 
+not. At first, I was looking at some Go code and it just didn't resonated with me.
 Compared to Elixir which has got me **hooked** immediately.
 
 I guess me being a Ruby developer has influenced my decision to learn this

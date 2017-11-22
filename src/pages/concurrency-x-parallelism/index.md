@@ -1,18 +1,15 @@
 ---
-layout: post
 title: Concurrency vs Parallelism
-category: general
+date: 2017-07-10
 ---
 
 Concurrency and Parallelism are two of the most talked-about topics in computer
-science. The reason why is because these are very important concepts to build a scalable, 
+science. The reason why is because these are very important concepts to build a scalable,
 reliable and fault-tolerant service. Also, there are a huge number of
 discussions/debates as to what the differences are!
 
-<!--break-->
-
 Most people thought in different ways which has spread several beliefs which has
-obviously tattered the meanings of both terms. In fact, some people would say 
+obviously tattered the meanings of both terms. In fact, some people would say
 **Concurrent = Parallel**, and another group would think otherwise.
 
 Here's what Rob Pike (co-inventor of the Go language) had to say about this:
@@ -76,7 +73,7 @@ faster than the previous approaches.
 
 In computer sense, a code running **concurrently** means that it is executing a
 number of different tasks at the same time by switching contexts regardless of how
-many threads/workers/cores are available. With **parallel**, each tasks are mostly 
+many threads/workers/cores are available. With **parallel**, each tasks are mostly
 ran at the same time, using a separate worker or a CPU core.
 
 Depending on your programming language, the capability to do it successfully can

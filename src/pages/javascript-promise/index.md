@@ -1,8 +1,6 @@
 ---
-layout: post
 title: A Quick Demo of Javascript Promises
-category: javascript
-published: true
+date: 2017-08-11
 ---
 
 ### Using fetch
@@ -21,14 +19,12 @@ fetch(url)
   });
 ```
 
-<!--break-->
-
 ### Using fetch, but with error checking
 
 The above code looks good but lacks an error checking mechanism. What if we provided a
 github username that does not exist? What if the github API is down?
 
-Error checking is an important part when working with promises. Javascript makes it easy to do 
+Error checking is an important part when working with promises. Javascript makes it easy to do
 this via the `.catch` callback.
 
 Using our first example:

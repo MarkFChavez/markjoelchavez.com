@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Notes on Redux
-category: javascript
+date: 2017-10-14
 ---
 
 I decided to make this article for the purposes of actually learning the
@@ -10,8 +9,6 @@ fundamentals of redux.
 Technically speaking, it is a container that holds your whole application
 state. So instead of adding a bunch of state logic to wherever you might think
 of, redux helps you manage those things from a single container which helps you manage your app with quickly and with less problems.
-
-<!--break-->
 
 ### Redux terms we need to know
 

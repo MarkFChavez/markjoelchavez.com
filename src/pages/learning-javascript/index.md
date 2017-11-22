@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Learning JavaScript
-category: javascript
+date: 2017-10-23
 ---
 
 I've been learning JavaScript for the past few days and I found a reasonable article
@@ -15,8 +14,6 @@ this roadmap starting today.
   * Event Loop
   * Async-Await
   * RxJS
-
-<!--break-->
 
 ### 3. Be comfortable with at least one(1) set of dev tools.
   * Understand stack traces

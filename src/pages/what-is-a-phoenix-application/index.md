@@ -1,7 +1,6 @@
 ---
-layout: post
 title: How Phoenix Define an Application?
-category: elixir
+date: 2017-07-26
 ---
 
 Hey there.
@@ -11,13 +10,11 @@ because I am currently involved in a JavaScript project and it's been a fun
 experience so far! And I'm quite getting the hang of it. Maybe I will find some time
 in the future to share my experiences and struggles.
 
-<!--break-->
-
 Now, let's get down to Phoenix!
 
 Earlier today as I was searching for some Elixir goodies, I was brought upon a
-youtube link (watch [here](https://www.youtube.com/watch?v=lDKCSheBc-8)) of **Lance Halvorsen** 
-talking about the Phoenix framework. If you are not familiar who Lance is, he wrote 
+youtube link (watch [here](https://www.youtube.com/watch?v=lDKCSheBc-8)) of **Lance Halvorsen**
+talking about the Phoenix framework. If you are not familiar who Lance is, he wrote
 [this](https://pragprog.com/book/lhelph/functional-web-development-with-elixir-otp-and-phoenix)
 book and I encourage you to take a look.
 

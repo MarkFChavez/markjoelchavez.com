@@ -1,15 +1,12 @@
 ---
-layout: post
 title: Why You Should Avoid Rails Callbacks?
-category: ruby
+date: 2017-06-21
 ---
 
 **tl;dr - Just avoid them at all costs**
 
 Callbacks are evil. Well, maybe at this point in time, you haven't realized that yet but I want you to read on and
 continue.
-
-<!--break-->
 
 Consider this scenario.
 

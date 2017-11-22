@@ -1,7 +1,6 @@
 ---
-layout: post
 title: 'Introduction: JavaScript Event Loop'
-category: javascript
+date: 2017-10-25
 ---
 
 Today I want to talk a bit about the **Event Loop**. If you want to get deeper
@@ -14,8 +13,6 @@ article, I want you to at least keep these terms in mind (and in order).
 4. Event Loop
 
 Let's get started by talking about how JavaScript executes a program.
-
-<!--break-->
 
 ### How are functions called in JavaScript?
 

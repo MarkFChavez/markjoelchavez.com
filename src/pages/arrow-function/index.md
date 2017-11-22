@@ -1,14 +1,11 @@
 ---
-layout: post
 title: Arrow Function and When To Use It
-category: javascript
+date: 2017-09-18
 ---
 
 Since the release of ES6, there has been a number of new and exciting features. One of those is the
 **arrow function**. In the surface, arrow function is not a replacement to function declarations but
 it provides us with an additional option plus it shines on specific use-cases too.
-
-<!--break-->
 
 Below is an example of a function declaration that adds two numbers given the
 arguments.
