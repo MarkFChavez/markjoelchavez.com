@@ -24,9 +24,12 @@ something here, don't hesitate to share it with me!
 
 1) Dave Ceddia's [timeline for learning react](https://daveceddia.com/timeline-for-learning-react/)
 2) React Patterns [http://reactpatterns.com](http://reactpatterns.com)
-3) [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux) by Dan Abramov (creator of Redux)
-4) [Practical Redux](http://blog.isquaredsoftware.com/2016/10/practical-redux-part-0-introduction/) blog series by @acemarke (Redux maintainer) (free, but comes with a paid version)
+3) Kent Dodds' Advanced React Component Patterns course at [egghead.io](https://egghead.io/courses/advanced-react-component-patterns)
+4) [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux) by Dan Abramov (creator of Redux)
+5) [Practical Redux](http://blog.isquaredsoftware.com/2016/10/practical-redux-part-0-introduction/) blog series by @acemarke (Redux maintainer) (free, but comes with a paid version)
 
 My goal is to be really familiar with **ES6**, **React.js** and **Redux** as these are usually the essentials for making a maintainable and fast web application.
+
+**UPDATE:** I added a newly released course by [@kentcdodds](https://twitter.com/kentcdodds) about advanced react patterns. It looks promising knowing that it is authored by one of the best teachers in JavaScript.
 
 Happy reading!
