@@ -30,7 +30,7 @@ It made me happier and more confident in return.
 
 #### 3) Professional
 
-In terms of professional life, I was able to tackle different domains and learn about them. I realized that programming means giving value to yourself or other people. A software that is not usable, is not a software at all. Software is something that improves people's lives, not make them worse.
+In terms of career, I was able to tackle different domains and learn about them. I realized that programming means giving value to yourself or other people. A software that is not usable, is not a software at all. Software is something that improves people's lives, not make them worse.
 
 To put things into a more technical perspective, I started learning JavaScript for real. Simply because of how easy and expressive it is, just like Ruby. I also had a wonderful introduction to functional programming thanks to Elixir and JavaScript.
 
