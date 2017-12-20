@@ -34,7 +34,7 @@ In terms of career, I was able to tackle different domains and learn about them.
 
 To put things into a more technical perspective, I started learning JavaScript for real. Simply because of how easy and expressive it is, just like Ruby. I also had a wonderful introduction to functional programming thanks to Elixir and JavaScript.
 
-I believe that every developer should learn how to "functional programming". I'm not saying that it's the future but it will surely make you a better developer that can craft a good and maintainable software.
+I believe that every developer should know functional programming. I'm not saying that it's the future but it will surely make you a better developer that can craft a good and maintainable software.
 
 #### 4) Relationships
 
