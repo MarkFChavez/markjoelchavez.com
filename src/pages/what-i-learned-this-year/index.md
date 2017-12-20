@@ -44,4 +44,6 @@ Cherish every moment. Always keep your principles intact. Avoid toxic people. Be
 
 ## Final Words
 
-I am very much excited for next year. Cheers to a more fruitful life!
+I am very excited to what next year will bring. Looking forward to reaching my goals and be a significant individual of this humbling world.
+
+Happy reading!
