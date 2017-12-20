@@ -10,7 +10,7 @@ Have you reached your goals?<br />
 What are your plans for the years to come?
 
 ## 2017 summed up...
-This year has been so rewarding for me. I am always thankful to everyone who are constantly urging me to be a better individual.
+This year has been so rewarding for me. I am always grateful to everyone who constantly pushes me to be a better individual.
 
 #### 1) Travel
 
