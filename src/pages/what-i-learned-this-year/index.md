@@ -38,9 +38,9 @@ I believe that every developer should know functional programming. I'm not sayin
 
 #### 4) Relationships
 
-This year wouldn't be much happier without the support of my family and partner. There's nothing more important than having a strong relationship with everyone you love.
+This year wouldn't be much happier without the support of my family and my partner. There's nothing more important than having a strong relationship with them and everyone you love.
 
-Cherish every moment. Always keep your principles intact. Avoid toxic people. Be happy.
+Cherish every moment. Always keep your principles intact. Be confident and happy. Avoid toxic people.
 
 ## Final Words
 
