@@ -19,14 +19,14 @@ great way to prevent burnout. Exploring different places and cultures is somethi
 
 #### 2) Money
 
-When I started working as a professional a few years back, I thought of money as something that was not really important. I always thought to myself that having an irreplaceable knowledge in your profession would get you the money you deserve.
+When I started working as a professional a few years back, I thought of money as something that was not really important. I always thought to myself that having an irreplaceable knowledge in your profession would get you the money you want and deserve.
 
 While that is true, I realized that professional skills alone will not get you further in life. Knowing how to accumulate wealth is a necessary skill to learn as it will move you
 to some places beyond your imagination.
 
-This is the year when I started shifted my thinking about money. I started saving up. I started budgeting my expenses. I became frugal in my own way.
+I shifted my thinking with regards to money. I started saving up. I started budgeting my expenses. I became frugal in my own way. I started to sell the stuffs that I don't need. I started to live as simple as possible.
 
-It basically made me happier and more confident in life.
+It made me happier and more confident in return.
 
 #### 3) Professional
 
