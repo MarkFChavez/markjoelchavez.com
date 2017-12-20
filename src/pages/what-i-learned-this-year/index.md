@@ -19,7 +19,7 @@ great way to prevent burnout. Exploring different places and cultures is somethi
 
 #### 2) Money
 
-When I started working as a professional a few years back, I thought of money as something that was not really important. Instead, having an irreplaceable knowledge in your profession would get you the money you want and deserve.
+When I started working as a professional a few years back, I thought of money as something that was not really important. But instead, having an irreplaceable knowledge in your profession would get you the money you want and deserve.
 
 While that is true, I realized that professional skills alone will not get you further in life. Knowing how to accumulate wealth is a necessary skill to learn as it will move you
 to some places beyond your imagination.
