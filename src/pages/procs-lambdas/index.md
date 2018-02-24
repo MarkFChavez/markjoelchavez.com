@@ -1,7 +1,6 @@
 ---
 title: Procs vs Lambdas
 date: 2018-02-24
-published: false
 ---
 
 Procs and Lambdas are simply, blocks in ruby. The only difference between these and a simple block (which uses yield)
@@ -35,10 +34,10 @@ l.call('python') # PYTHON
 They don't have much of an implementation difference but as you will see, there are gotchas that
 we have to be aware of.
 
-### How return works inside a Proc?
+### How return works?
 
-Using a `return` statement inside a proc causes it to actually `return` from the scope where it came from. To illustrate 
-an example:
+Using a `return` statement inside a proc causes it to actually `return` from the scope where it came from so
+building from the ruby knowledge that we have, this is something we need to be aware of when using procs.
 
 ```ruby
 def a_proc
@@ -50,11 +49,6 @@ end
 
 a_proc # hello
 ```
-
-With the above example, calling `return` from inside the proc causes an actual return from the
-method itself.
-
-### Returning in a Lambda
 
 I must say that personally, a `return` statement in lambda works intuitively with how I understand
 Ruby. The `return` statement only works locally inside the lambda itself and does not affect the
@@ -70,3 +64,40 @@ end
 
 a_lambda # prints 'hello', then outputs 'world'
 ```
+
+### Number of Arity
+
+In procs, number of arities are ignored. If your proc only accepts two arguments, passing more than that is
+OK and does not result in an error. Proc is a litle bit forgiving than its lambda counterpart.
+
+Also, if you didn't pass enough arguments to a Proc, it resolves those missing arguments as nil.
+
+```ruby
+proc = Proc.new do |a, b|
+  [a, b]
+end
+
+proc.call(5, 5, 100) # [5, 5]
+proc.call(5) # [5, nil]
+```
+
+Using lambda, on the otherhand, works just like a normal ruby method. If you didn't pass enough arguments, then there
+will be an `ArgumentError`. Same result applies if you didn't pass enough arguments.
+
+```ruby
+l = lambda do |a, b|
+  a + b
+end
+
+l.call(5, 5) # 10
+l.call(5, 5, 5) # error
+l.call(5) # error
+```
+
+### So, which should I use?
+
+Having understood the usage and explanation for both procs and lambdas, I personally think that lambdas are more intuitive
+and won't cause us problems in the long run while procs are something you should only use if you really understand the
+gotchas and are intentionally making use of those.
+
+Happy reading!
