@@ -23,7 +23,13 @@ more beneficial especially when we are writing tests.
 ```ruby
 # PROC
 p = Proc.new { |name| name.upcase }
+
+# do something
+
 p.call('mark') # MARK
+
+# do another operation again...
+
 p.call('ruby') # RUBY
 
 # LAMBDA
