@@ -4,7 +4,7 @@ date: 2018-02-24
 ---
 
 Procs and Lambdas are simply, blocks in ruby. The only difference between these and a simple block (which uses yield)
-is that the former can be derived as a `callable object` as well. It just means that you have more control of the block
+is that the former can be derived as a `callable object`. It just means that you have more control of the block
 and can call it anywhere inside the method.
 
 In this article, I will assume that you are already comfortable understanding with how a block works both conceptually
