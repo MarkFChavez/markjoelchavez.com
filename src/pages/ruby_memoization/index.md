@@ -1,5 +1,5 @@
 ---
-title: "Ruby: Memoization Done Right"
+title: "Ruby: Memoization Done Better"
 date: 2018-11-11
 ---
 
