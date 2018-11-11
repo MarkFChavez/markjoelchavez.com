@@ -3,7 +3,7 @@ module.exports = {
     title: 'markOnSoftware',
     author: 'Mark Chavez',
     description: 'My personal thoughts on web',
-    siteUrl: 'http://markjoelchavez.com',
+    siteUrl: 'http://markonsoftware.com',
   },
   // pathPrefix: '/gatsby-starter-blog',
   plugins: [
