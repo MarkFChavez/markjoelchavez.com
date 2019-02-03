@@ -1,1 +1,3 @@
-My blog.
+## markonsoftware.com
+
+Welcome to my blog!
