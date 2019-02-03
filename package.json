@@ -2,9 +2,9 @@
   "name": "gatsby-starter-blog",
   "description": "Mark On Software",
   "version": "1.0.0",
-  "author": "Mark Chavez <markchav3z@gmail.com>",
+  "author": "Mark Chavez <mjfchavez@gmail.com>",
   "bugs": {
-    "url": "https://github.com/mrkjlchvz/markjoelchavez.com/issues"
+    "url": "https://github.com/MarkFChavez/markjoelchavez.com/issues"
   },
   "dependencies": {
     "gatsby": "^1.9.118",
@@ -36,7 +36,7 @@
     "gh-pages": "^1.1.0",
     "prettier": "^1.8.2"
   },
-  "homepage": "http://markjoelchavez.com",
+  "homepage": "http://markonsoftware.com",
   "keywords": [
     "gatsby"
   ],
