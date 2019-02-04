@@ -6,15 +6,17 @@ import 'typeface-alegreya'
 import 'typeface-alegreya-sans'
 import '../css/prism-coy.css'
 import { rhythm, scale } from '../utils/typography'
+import BlogPost from '../templates/blog-post'
 
-const TITLE = 'markOnSoftware'
+const TITLE = 'All Things Software'
 
-class Template extends React.Component {
+class Index extends React.Component {
   render() {
     const { location, children } = this.props
-    let header
 
+    let header
     let rootPath = `/`
+
     if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
       rootPath = __PATH_PREFIX__ + `/`
     }
@@ -24,6 +26,7 @@ class Template extends React.Component {
         <h1
           style={{
             ...scale(1.2),
+            textAlign: 'center',
             marginBottom: rhythm(1.5),
             marginTop: 0,
             fontWeight: 'bold'
@@ -77,4 +80,4 @@ class Template extends React.Component {
   }
 }
 
-export default Template
+export default Index
