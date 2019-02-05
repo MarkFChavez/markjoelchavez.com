@@ -69,7 +69,7 @@ class ProjectsPage extends React.Component {
         <div>
           <h3 style={{fontWeight: 'bold'}}> Better Programming </h3>
           <p>
-            I translated thoughtbot's programming guide to a simple website. Come check it out.
+            I translated <a href="https://thoughtbot.com" target="_blank">thoughtbot</a>'s programming guide to a simple website. Come check it out.
           </p>
           <p>
             <a href={`${betterProgramming}`}> visit website </a>
