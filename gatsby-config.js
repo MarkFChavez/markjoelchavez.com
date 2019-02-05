@@ -9,6 +9,7 @@ module.exports = {
     projects: {
       github_client: 'https://github.com/MarkFChavez/github_client-ruby',
       crypto_contributors: 'https://crypto-contributors.netlify.com',
+      better_programming: 'https://better-programming.netlify.com/',
       bitcoin_index: 'https://bitcoinpriceindex.netlify.com',
       yamda: 'http://yamda.netlify.com',
       yt_downloader: 'https://yt-downloader.netlify.com',

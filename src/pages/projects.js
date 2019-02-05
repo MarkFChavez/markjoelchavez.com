@@ -14,6 +14,8 @@ class ProjectsPage extends React.Component {
       = get(this, 'props.data.site.siteMetadata.projects.github_client')
     const cryptoContributors 
       = get(this, 'props.data.site.siteMetadata.projects.crypto_contributors')
+    const betterProgramming 
+      = get(this, 'props.data.site.siteMetadata.projects.better_programming')
     const bitcoinIndex 
       = get(this, 'props.data.site.siteMetadata.projects.bitcoin_index')
     const yamda 
@@ -65,6 +67,17 @@ class ProjectsPage extends React.Component {
         </div>
 
         <div>
+          <h3 style={{fontWeight: 'bold'}}> Better Programming </h3>
+          <p>
+            I translated thoughtbot's programming guide to a simple website. Come check it out.
+          </p>
+          <p>
+            <a href={`${betterProgramming}`}> visit website </a>
+          </p>
+          <div style={{width: rhythm(1.5), borderBottom: '2px solid #333'}}></div>
+        </div>
+
+        <div>
           <h3 style={{fontWeight: 'bold'}}> Yet Another Movie Database App </h3>
           <p>
             Shows a listing of movies and films by categories. You can browse popular, top rated and upcoming 
@@ -107,6 +120,7 @@ export const projectsPageQuery = graphql`
         projects {
           github_client
           crypto_contributors
+          better_programming
           bitcoin_index
           yamda
           yt_downloader
