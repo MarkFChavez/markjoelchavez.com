@@ -1,8 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import get from 'lodash/get'
-
-import Bio from '../components/Bio'
 import { rhythm, scale } from '../utils/typography'
 
 class BlogPost extends React.Component {
@@ -36,7 +34,6 @@ class BlogPost extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <Bio />
       </div>
     )
   }

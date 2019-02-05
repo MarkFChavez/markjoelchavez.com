@@ -1,9 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: 'All Things Software',
+    title: 'Mark Chavez',
     author: 'Mark Chavez',
     description: 'My personal thoughts on web',
     siteUrl: 'http://markonsoftware.com',
+    twitterUrl: 'https://twitter.com/MarkFChavez',
+    githubUrl: 'https://github.com/MarkFChavez',
+    projects: {
+      github_client: 'https://github.com/MarkFChavez/github_client-ruby',
+      crypto_contributors: 'https://crypto-contributors.netlify.com',
+      bitcoin_index: 'https://bitcoinpriceindex.netlify.com',
+      yamda: 'http://yamda.netlify.com',
+      yt_downloader: 'https://yt-downloader.netlify.com',
+    }
   },
   // pathPrefix: '/gatsby-starter-blog',
   plugins: [

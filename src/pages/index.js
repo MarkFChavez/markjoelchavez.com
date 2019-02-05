@@ -2,64 +2,45 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-
-import Bio from '../components/Bio'
 import { rhythm } from '../utils/typography'
 
-class BlogIndex extends React.Component {
+class RootPage extends React.Component {
   render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const posts = get(this, 'props.data.allMarkdownRemark.edges')
+    const siteTitle  = get(this, 'props.data.site.siteMetadata.title')
+    const twitterUrl = get(this, 'props.data.site.siteMetadata.twitterUrl')
 
     return (
       <div>
         <Helmet title={siteTitle} />
-        <Bio />
 
-        {posts.map(({ node }) => {
-          const title = get(node, 'frontmatter.title') || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: 'none', color: '#000' }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </div>
-          )
-        })}
+        <div>
+          <p>
+            I'm <a href="https://twitter.com/MarkFChavez">@MarkFChavez</a>, a web developer who likes to build 
+            value-driven software that helps businesses become more efficient. Products should be developed with 
+            customers in mind and that's what I want to be better at during this journey.
+          </p>
+
+          <p>
+            I share my thoughts about programming in general. Keeping a journal of the things I've learned 
+            is one of the best investments I'm going to make.
+          </p>
+
+          <p>
+            And most importantly, I get to share it with you all!
+          </p>
+        </div>
       </div>
     )
   }
 }
 
-export default BlogIndex
+export default RootPage
 
-export const pageQuery = graphql`
-  query IndexQuery {
+export const rootPageQuery = graphql`
+  query rootPageQuery {
     site {
       siteMetadata {
         title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "DD MMMM, YYYY")
-            title
-          }
-        }
       }
     }
   }
