@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { rhythm } from '../utils/typography'
-import profilePic from './profile-pic.jpg'
+import profilePic from './profile-pic.png'
 import NavigationLinks from './NavigationLinks'
 
 class Header extends React.Component {
