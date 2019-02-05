@@ -1,18 +1,17 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
+import get from 'lodash/get'
 
 import 'typeface-alegreya'
 import 'typeface-alegreya-sans'
 import '../css/prism-coy.css'
 import { rhythm, scale } from '../utils/typography'
-import BlogPost from '../templates/blog-post'
-
-const TITLE = 'All Things Software'
 
 class Index extends React.Component {
   render() {
     const { location, children } = this.props
+    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
 
     let header
     let rootPath = `/`
@@ -40,7 +39,7 @@ class Index extends React.Component {
             }}
             to={'/'}
           >
-            {TITLE}
+            {siteTitle}
           </Link>
         </h1>
       )
@@ -61,11 +60,12 @@ class Index extends React.Component {
             }}
             to={'/'}
           >
-            {TITLE}
+            {siteTitle}
           </Link>
         </h3>
       )
     }
+
     return (
       <Container
         style={{
@@ -81,3 +81,14 @@ class Index extends React.Component {
 }
 
 export default Index
+
+export const pageQuery = graphql`
+  query MetadataQuery {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
+  }
+`

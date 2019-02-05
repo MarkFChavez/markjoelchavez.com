@@ -15,6 +15,7 @@ class BlogIndex extends React.Component {
       <div>
         <Helmet title={siteTitle} />
         <Bio />
+
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
@@ -24,7 +25,7 @@ class BlogIndex extends React.Component {
                   marginBottom: rhythm(1 / 4),
                 }}
               >
-                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
+                <Link style={{ boxShadow: 'none', color: '#000' }} to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
