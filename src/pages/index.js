@@ -6,7 +6,7 @@ import { rhythm } from '../utils/typography'
 
 class RootPage extends React.Component {
   render() {
-    const siteTitle  = get(this, 'props.data.site.siteMetadata.title')
+    const siteTitle  = `About - ${get(this, 'props.data.site.siteMetadata.title')}`
     const twitterUrl = get(this, 'props.data.site.siteMetadata.twitterUrl')
 
     return (
@@ -17,7 +17,7 @@ class RootPage extends React.Component {
           <p>
             I'm <a href="https://twitter.com/MarkFChavez">@MarkFChavez</a>, a web developer who likes to build 
             value-driven software that helps businesses become more efficient. Products should be developed with 
-            customers in mind and that's what I want to be better at during this journey.
+            customers in mind and that's what I want to be better at in this never-ending journey.
           </p>
 
           <p>
