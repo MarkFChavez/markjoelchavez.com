@@ -1,3 +1,7 @@
 ## markonsoftware.com
 
-Welcome to my blog!
+### Setting up
+
+```ruby
+npm run dev
+```
