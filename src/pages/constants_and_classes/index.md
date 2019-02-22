@@ -16,7 +16,8 @@ end
 ```
 
 The goal of this article is to let you know an alternate approach about
-constants and classes.
+constants and classes. If you are not familiar about how `lambdas` work, 
+read the [Procs and Lambdas](/articles/procs-lambdas) article first.
 
 ### Defining a constant
 
@@ -72,3 +73,15 @@ Person.class_eval(&klass)
 
 Person.new.talk("Hello world!") # Returns "Hello world!"
 ```
+
+With a whole new understanding of constants and classes, it'll be easy for you
+to read and understand Ruby code without relying on the Internet.
+
+To learn more about metaprogramming, I suggest taking 
+[@saturnflyer](https://twitter.com/saturnflyer)'s 
+[Ruby Metaprogramming Class](https://master-class.saturnflyer.com).
+
+Happy reading!
+
+
+
