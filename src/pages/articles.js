@@ -15,7 +15,7 @@ class ArticlesPage extends React.Component {
 
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
-          const postUrl = `/articles/${node.fields.slug}`
+          const postUrl = `/articles${node.fields.slug}`
 
           return (
             <div>
