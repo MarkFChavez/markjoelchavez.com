@@ -34,6 +34,7 @@ class BlogPost extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
+        <a href="/articles"> Back to articles </a>
       </div>
     )
   }
