@@ -8,6 +8,8 @@ class RootPage extends React.Component {
   render() {
     const siteTitle  = `About - ${get(this, 'props.data.site.siteMetadata.title')}`
     const twitterUrl = get(this, 'props.data.site.siteMetadata.twitterUrl')
+    const posts = get(this, 'props.data.allMarkdownRemark.edges')
+    const latestPost = posts[0].node
 
     return (
       <div>
@@ -29,6 +31,14 @@ class RootPage extends React.Component {
             And most importantly, I get to share it with you all!
           </p>
         </div>
+
+        <div style={{width: rhythm(1.5), borderBottom: '2px solid #333'}}>
+        </div>
+
+        <div style={{marginTop: rhythm(1.0)}}>
+          <span>Latest read:</span>
+          <a href={`/articles${latestPost.fields.slug}`}> {latestPost.frontmatter.title} </a>
+        </div>
       </div>
     )
   }
@@ -41,6 +51,20 @@ export const rootPageQuery = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "DD MMMM, YYYY")
+            title
+          }
+        }
       }
     }
   }
