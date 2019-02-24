@@ -6,7 +6,7 @@ import { rhythm } from '../utils/typography'
 
 class RootPage extends React.Component {
   render() {
-    const siteTitle  = `About - ${get(this, 'props.data.site.siteMetadata.title')}`
+    const siteTitle  = get(this, 'props.data.site.siteMetadata.title')
     const twitterUrl = get(this, 'props.data.site.siteMetadata.twitterUrl')
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
     const latestPost = posts[0].node
