@@ -5,7 +5,8 @@ import get from 'lodash/get'
 import Header from '../components/Header'
 import 'typeface-alegreya'
 import 'typeface-alegreya-sans'
-import '../css/prism-coy.css'
+// import '../css/prism-coy.css'
+import '../css/gatsby-overrides.css'
 import { rhythm, scale } from '../utils/typography'
 
 class Index extends React.Component {
