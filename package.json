@@ -27,10 +27,8 @@
     "pngquant": "^1.3.0",
     "pngquant-bin": "^5.0.1",
     "react-responsive-grid": "^0.3.4",
-    "typeface-alegreya": "0.0.45",
-    "typeface-alegreya-sans": "0.0.45",
     "typography-plugin-code": "^0.16.11",
-    "typography-theme-de-young": "^0.16.9"
+    "typography-theme-github": "^0.16.18"
   },
   "devDependencies": {
     "eslint": "^4.11.0",
