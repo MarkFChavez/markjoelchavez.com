@@ -27,9 +27,20 @@ class ProjectsPage extends React.Component {
       <div>
         <Helmet title={siteTitle} />
         <div>
+          <h3 style={{fontWeight: 'bold'}}> Conferences for Tech </h3>
+          <p>
+            A curated list of tech conferences around the world. This is a work-in-progress web application built 
+            with Elixir/Phoenix. My goal is to learn how to deliver an elixir app from scratch to production.
+          </p>
+          <p>
+            <a href="http://conferencesfortech.com"> visit website </a>
+          </p>
+          <div style={{width: rhythm(1.5), borderBottom: '2px solid #333'}}></div>
+        </div>
+        <div>
           <h3 style={{fontWeight: 'bold'}}> GitHub Client </h3>
           <p>
-            My focus right now is working on <a href={`${githubClient}`}>github_client-ruby</a> — an open-source GitHub api wrapper for ruby applications. I want to make the gem as simple as possible for 
+            I'm working on <a href={`${githubClient}`}>github_client-ruby</a> — an open-source GitHub api wrapper for ruby applications. I want to make the gem as simple as possible for 
             developers to use and understand.
           </p>
           <p>
