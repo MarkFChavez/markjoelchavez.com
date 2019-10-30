@@ -39,7 +39,7 @@ body:lang(fa) h1 {
   *   */
 code[class*='language-'],
 pre[class*='language-'] {
-  color: white;
+  color: red;
   background: none;
   font-family: Consolas, Menlo, Monaco, source-code-pro, Courier New, monospace;
   font-feature-settings: normal;
