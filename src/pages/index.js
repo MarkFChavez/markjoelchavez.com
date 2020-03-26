@@ -22,7 +22,7 @@ class RootPage extends React.Component {
           </p>
 
           <p style={{textAlign: 'justify'}}>
-            I want to share my thoughts about programming in general. I'd like this to be my personal journal (hopefully yours too!) for whenever I forgot something.
+            I want to share my thoughts about programming in general. I'd like this to be my personal journal (hopefully yours too!) for whenever I need to recall something.
           </p>
         </div>
       
