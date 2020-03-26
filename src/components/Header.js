@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { rhythm } from '../utils/typography'
-import profilePic from './profile-pic.png'
+import profilePic from './profile-pic.jpg'
 import NavigationLinks from './NavigationLinks'
 
 class Header extends React.Component {
@@ -20,6 +20,7 @@ class Header extends React.Component {
             marginRight: rhythm(1),
             width: rhythm(4),
             height: rhythm(4),
+            borderRadius: "50%",
           }}
         />
 
