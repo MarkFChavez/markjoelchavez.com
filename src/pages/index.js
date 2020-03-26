@@ -16,20 +16,18 @@ class RootPage extends React.Component {
         <Helmet title={siteTitle} />
 
         <div>
-          <p>
-            I'm <a href="https://twitter.com/MarkFChavez">@MarkFChavez</a>, a web developer who likes to build 
-            value-driven software that helps businesses become more efficient. Products should be developed with 
-            customers in mind and that's what I want to be better at in this never-ending journey.
+          <p style={{textAlign: 'justify'}}>
+            My name is Mark! I'm a web developer who wants to be better at building 
+            value-driven software that helps businesses be efficient. I think us engineers should develop products with customers in mind but also know the different tradeoffs in technical decisions too.
           </p>
 
-          <p>
-            I share my thoughts about programming in general. Keeping a journal of the things I've learned 
-            is one of the best investments I'm going to make.
+          <p style={{textAlign: 'justify'}}>
+            I want to share my thoughts about programming in general. I'd like this to be my personal journal (hopefully yours too!) for whenever I forgot something.
           </p>
-
-          <p>
-            And most importantly, I get to share it with you all!
-          </p>
+        </div>
+      
+        <div>
+          <p> You can check me out on <a href="https://twitter.com/markfchavez">twitter</a> and <a href="https://github.com/markfchavez">github</a>. </p>
         </div>
 
         <div style={{width: rhythm(1.5), borderBottom: '2px solid #333'}}>
