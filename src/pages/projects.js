@@ -28,23 +28,21 @@ class ProjectsPage extends React.Component {
         <Helmet title={siteTitle} />
 
         <div>
+          <h3 style={{fontWeight: 'bold'}}> The Flour Estate -- Order Tracking </h3>
+          <p>
+            I developed a simple order tracking system for my sister's baking business.
+          </p>
+          <p style={{fontStyle: 'italic'}}> This is a private website. </p>
+          <div style={{width: rhythm(1.5), borderBottom: '2px solid #333'}}></div>
+        </div>
+
+        <div>
           <h3 style={{fontWeight: 'bold'}}> COVID-19 SMS Alert </h3>
           <p>
             Subscribe to receive new updates about COVID-19 cases in the Philippines.
           </p>
           <p>
             <a href="http://covidalertph.com"> visit website </a>
-          </p>
-          <div style={{width: rhythm(1.5), borderBottom: '2px solid #333'}}></div>
-        </div>
-
-        <div>
-          <h3 style={{fontWeight: 'bold'}}> COVID-19 Historicals </h3>
-          <p>
-            Shows how covid-19 cases are growing here in the Philippines.
-          </p>
-          <p>
-            <a href="https://coronaph.netlify.com"> visit website </a>
           </p>
           <div style={{width: rhythm(1.5), borderBottom: '2px solid #333'}}></div>
         </div>
