@@ -28,6 +28,17 @@ class ProjectsPage extends React.Component {
         <Helmet title={siteTitle} />
 
         <div>
+          <h3 style={{fontWeight: 'bold'}}> Pokedex for Animal Crossing </h3>
+          <p>
+            A database of insects and fishes in animal crossing.
+          </p>
+          <p>
+            <a href="https://acnhdex.com"> visit website </a>
+          </p>
+          <div style={{width: rhythm(1.5), borderBottom: '2px solid #333'}}></div>
+        </div>
+
+        <div>
           <h3 style={{fontWeight: 'bold'}}> The Flour Estate -- Order Tracking </h3>
           <p>
             I developed a simple order tracking system for my sister's baking business.
