@@ -40,6 +40,16 @@ class NavigationLinks extends React.Component {
               <span>projects</span>
             </Link>
           </div>
+
+          <div style={{marginRight: rhythm(1/2)}}> 
+            <Link 
+              exact
+              to='/uses/'
+              activeStyle={{fontWeight: 'bold', color: '#333'}}
+              style={{color: 'grey'}}>
+              <span>uses</span>
+            </Link>
+          </div>
         </div>
       </div>
     )
