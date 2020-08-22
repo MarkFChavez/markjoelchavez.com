@@ -29,3 +29,13 @@ class UsesPage extends React.Component {
 }
 
 export default UsesPage
+
+export const usesPageQuery = graphql`
+  query usesPageQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
