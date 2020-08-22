@@ -22,6 +22,15 @@ class UsesPage extends React.Component {
           <li> I use <a href="https://www.amazon.com/Logitech-Master-Wireless-Mouse-High-precision/dp/B00TZR3WRM">Logitech MX Master</a> for all things (e.g. gaming, coding, etc) </li>
           <li> <a href="https://www.amazon.com/Ricoh-GR-II-Digital-Camera/dp/B00ZY9JJEU">Ricoh GR II</a> for photography. I mostly do street check out my <a href="https://www.instagram.com/_markandwhite/">photos</a>! </li>
         </ul>
+
+        <h3 style={{fontWeight: 'bold'}}> Software </h3>
+        <ul>
+          <li> <a href="https://qsapp.com/">Quicksilver</a> for mapping my keyboard keys to apps. </li>
+          <li> <a href="https://1password.com">1Password</a> for storing my secure notes and passwords! </li>
+          <li> <a href="https://www.youneedabudget.com">YNAB</a> for managing my expenses and savings. </li>
+          <li> <a href="https://www.notion.so">Notion</a> for daily notes and getting things done! </li>
+          <li> <a href="https://www.tunnelbear.com">TunnelBear</a> for VPN </li>
+        </ul>
       </div>
     )
   }
