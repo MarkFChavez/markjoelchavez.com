@@ -18,7 +18,7 @@ class RootPage extends React.Component {
         <div>
           <p style={{textAlign: 'justify'}}>
             Hi 👋🏼, my name is Mark! I'm a web developer who wants to be better at building 
-            value-driven software that helps businesses be efficient. I think us engineers should develop products with customers in mind but also know the different tradeoffs in technical decisions too.
+            value-driven software that helps businesses be efficient. I think engineers should develop products with customers in mind but also be aware of the tradeoffs from technical decisions as well.
           </p>
 
           <p style={{textAlign: 'justify'}}>
