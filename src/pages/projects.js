@@ -28,6 +28,17 @@ class ProjectsPage extends React.Component {
         <Helmet title={siteTitle} />
 
         <div>
+          <h3 style={{fontWeight: 'bold'}}> Ruby API wrapper for btfy.io </h3>
+          <p>
+            A ruby gem that consumes the API from btfy.io
+          </p>
+          <p>
+            <a href="https://github.com/MarkFChavez/btfy_client-ruby"> visit website </a>
+          </p>
+          <div style={{width: rhythm(1.5), borderBottom: '2px solid #333'}}></div>
+        </div>
+
+        <div>
           <h3 style={{fontWeight: 'bold'}}> Stats Builder for Blox Piece </h3>
           <p>
             Build your character stats without paying a dime!
