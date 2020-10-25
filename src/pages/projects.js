@@ -28,6 +28,28 @@ class ProjectsPage extends React.Component {
         <Helmet title={siteTitle} />
 
         <div>
+          <h3 style={{fontWeight: 'bold'}}> Roomshies.fun! </h3>
+          <p>
+            Sets up room so you can ask questions and receive answers.
+          </p>
+          <p>
+            <a href="https://roomshies.fun"> visit website </a>
+          </p>
+          <div style={{width: rhythm(1.5), borderBottom: '2px solid #333'}}></div>
+        </div>
+
+        <div>
+          <h3 style={{fontWeight: 'bold'}}> Foodist.fun! </h3>
+          <p>
+            Shows random food so you get hungry.
+          </p>
+          <p>
+            <a href="https://foodist.fun"> visit website </a>
+          </p>
+          <div style={{width: rhythm(1.5), borderBottom: '2px solid #333'}}></div>
+        </div>
+
+        <div>
           <h3 style={{fontWeight: 'bold'}}> Ruby API wrapper for btfy.io </h3>
           <p>
             A ruby gem that consumes the API from btfy.io
