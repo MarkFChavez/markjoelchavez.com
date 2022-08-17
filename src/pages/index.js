@@ -27,7 +27,7 @@ class RootPage extends React.Component {
         </div>
       
         <div>
-          <p> You can check what I'm currently up to on <a href="https://github.com/markfchavez">github</a>. </p>
+          <p> You can check what I'm currently up to on <a href="https://github.com/markfchavez">GitHub</a>. </p>
         </div>
 
         <div style={{width: rhythm(1.5), borderBottom: '2px solid #333'}}>
